@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Me</h1>
+
+    <form action="#" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other" required>
+      <label for="other">Other</label><br><br>
+
+      <p>What are you interested in?</p>
+      <input type="checkbox" id="design" name="interest" value="design" required>
+      <label for="design">Design</label><br>
+      <input type="checkbox" id="technology" name="interest" value="technology" required>
+      <label for="technology">Technology</label><br>
+      <input type="checkbox" id="travel" name="interest" value="travel" required>
+      <label for="travel">Travel</label><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p>📧 You can also email me directly: 
+        <a href="f.rezaei2030@gmail.com">f.rezaei2030@gmail.com</a>
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Personal website.</p>
+  </footer>
+
+</body>
+</html>
